@@ -1,0 +1,43 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "multi private-next-pages/homecare.js": 0,
+      "multi private-next-pages/index.js": 1,
+      "multi private-next-pages/pricing.js": 2,
+      "multi private-next-pages/register.js": 3,
+      "multi private-next-pages/sign-in.js": 4,
+      "multi private-next-pages/_document.js": 5,
+      "multi private-next-pages/ehr/bpjs-plugin.js": 6,
+      "multi private-next-pages/ehr/ehr-plugin.js": 7,
+      "multi private-next-pages/ehr/introduction.js": 8,
+      "multi private-next-pages/others/dokter-gigi.js": 9,
+      "multi private-next-pages/others/dokter-umum.js": 10,
+      "multi private-next-pages/others/klinik-pratama.js": 11,
+      "multi private-next-pages/others/puskesmas.js": 12,
+      "multi next/dist/pages/_app": 13,
+      "multi next/dist/pages/_error": 14
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14
+    }
+  },
+  "chunks": {
+    "byName": {},
+    "bySource": {},
+    "usedIds": []
+  }
+}
