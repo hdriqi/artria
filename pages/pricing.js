@@ -1,0 +1,169 @@
+import React from 'react'
+
+import Head from 'next/head'
+import "../styles/main.scss";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import Link from 'next/link';
+
+export default function pricing () {
+  return (
+    <section className="pricing-page">
+      <Head>
+        <title>Artria - Pricing</title>
+      </Head>
+      <Navbar />
+      <section>
+        <section className="hero section-header flex-center">
+          <div className="price-banner flex-center flex-column">
+            <h4>Harga Artria EHR</h4>
+            <p>
+              Kami memberikan penawaran harga yang menarik dan tanpa kontrak, kami juga memberikan pelayanan secara gratis untuk klinik Anda
+          </p>
+            <div className="price-wrapper">
+              <span className="currency">IDR</span>
+              <span className="amount">249.000</span>
+            </div>
+            <div className="price-info">
+              /klinik/bulan/bayar tahunan
+          </div>
+            <div className="price-info">
+              IDR 299.000/klinik/bulan/bayar bulanan
+          </div>
+            <button className="btn btn--medium secondary mt-5 mw-1">
+              <Link href="/register">
+                <a>Coba Gratis Sekarang</a>
+              </Link>
+            </button>
+            <div className="features">
+              <div className="feature-item">
+                <img className="feature-icon" src="/static/icon/list.svg" />
+                <div className="feature-text">No Contract</div>
+              </div>
+              <div className="feature-item">
+                <img className="feature-icon" src="/static/icon/reverse.svg" />
+                <div className="feature-text">Update Fitur</div>
+              </div>
+              <div className="feature-item">
+                <img className="feature-icon" src="/static/icon/speaker.svg" />
+                <div className="feature-text">Free Support</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="section second-section">
+          <div className="header mb-7">
+            <h4 className="h3-md text-center fw-700 ">Add Ons</h4>
+            <p className="text-center">
+              Kami menawarkan beberapa fitur tambahan yang Anda butuhkan.
+            </p>
+          </div>
+          <div className="card__wrapper">
+            <div className="card card--yellow">
+              <div className="card__header">EHR Basic</div>
+              <div className="card__content px-3 px-md-5 flex-column flex-center">
+                <div className="card__currency--yearly">IDR</div>
+                <h4 className="card__amount--yearly  h3-sm h2-md">149.000</h4>
+                <div className="card__info--yearly">
+                  /klinik/bulan <b>bayar tahunan</b>
+                </div>
+                <h5 className="card__monthly h4-md  fw-700">
+                  IDR 199.000
+                </h5>
+                <div className="card__monthly-info">
+                  /klinik/bulan/ <b>bayar bulanan</b>
+                </div>
+                <p >
+                  Kelola rekam medis pasien Anda dengan memberikan pelayanan yang maksimal
+                </p>
+                <Link href="/">
+                  <a className="card__more-link flex-items">
+                    Learn More
+                    <img className="ml-2" src="/static/icon/chevron-orange.svg" />
+                  </a>
+                </Link>
+                <button className="btn btn--medium primary w-100">
+                  <Link href="">
+                    <a>Beli</a>
+                  </Link>
+                </button>
+              </div>
+            </div>
+
+
+            <div className="card card--green">
+              <div className="card__header">BPJS</div>
+              <div className="card__content px-3 px-md-5 flex-column flex-center">
+                <div className="card__currency--yearly">IDR</div>
+                <h4 className="card__amount--yearly h3-sm h2-md">449.000</h4>
+                <div className="card__info--yearly">
+                  /klinik/bulan <b>bayar tahunan</b>
+                </div>
+                <h5 className="card__monthly h4-md fw-700">
+                  IDR 499.000
+                </h5>
+                <div className="card__monthly-info">
+                  /klinik/bulan/ <b>bayar bulanan</b>
+                </div>
+                <p >
+                  Bekerjasama dengan BPJS? Solusinya ada di sini!
+                </p>
+                <Link href="/">
+                  <a className="card__more-link flex-items">
+                    Learn More
+                    <img className="ml-2" src="/static/icon/chevron-green.svg" />
+                  </a>
+                </Link>
+                <button className="btn btn--medium primary w-100">
+                  <Link href="">
+                    <a>Beli</a>
+                  </Link>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div className="card__wrapper mt-7">
+            <div className="card card--disabled">
+              <div className="card__header">
+                Artria Apotek
+              </div>
+              <h4 className="card__content h3-md">
+                Coming Soon
+              </h4>
+            </div>
+            <div className="card card--disabled">
+              <div className="card__header">
+                Artria Plus
+              </div>
+              <h4 className="card__content h3-md">
+                Coming Soon
+              </h4>
+            </div>
+            <div className="card card--disabled">
+              <div className="card__header">
+                Artria Forte
+              </div>
+              <h4 className="card__content h3-md ">
+                Coming Soon
+              </h4>
+            </div>
+          </div>
+
+        </section>
+
+        <section className="section third-section">
+          <div className="header mb-7 ">
+            <h4 className="h3-md text-center fw-700 ">
+              Kami Memberikan Kemudahan bagi Anda</h4>
+            <p className="text-center mx-auto">
+              Dapatkan semua peralatan yang Anda butuhkan disini, atau gunakan device pribadi Anda. Semua tergantung Anda!
+            </p>
+          </div>
+        </section>
+      </section>
+      <Footer />
+    </section>
+  )
+}
