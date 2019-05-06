@@ -46,7 +46,7 @@ export class puskesmas extends Component {
           </div>
 
           <div className="features__wrapper row pt-4 pt-md-7">
-            <div className="text-right col-12 col-md-6 features mb-5 mb-md-6">
+            <div className="text-md-right col-12 col-md-6 features mb-5 mb-md-6">
               <h4 className="features__title">
                 Dapatkan Laporan
               </h4>

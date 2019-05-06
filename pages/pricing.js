@@ -54,13 +54,13 @@ export default function pricing () {
 
         <section className="section second-section">
           <div className="header mb-7">
-            <h4 className="h3-md text-center fw-700 ">Add Ons</h4>
-            <p className="text-center">
+            <h4 className="h3-md  text-center fw-700 ">Add Ons</h4>
+            <p className="text-center mx-3">
               Kami menawarkan beberapa fitur tambahan yang Anda butuhkan.
             </p>
           </div>
           <div className="card__wrapper">
-            <div className="card card--yellow">
+            <div id="ehr-basic" className="card card--yellow">
               <div className="card__header">EHR Basic</div>
               <div className="card__content px-3 px-md-5 flex-column flex-center">
                 <div className="card__currency--yearly">IDR</div>
@@ -77,14 +77,14 @@ export default function pricing () {
                 <p >
                   Kelola rekam medis pasien Anda dengan memberikan pelayanan yang maksimal
                 </p>
-                <Link href="/">
+                <Link href="/ehr/ehr-plugin">
                   <a className="card__more-link flex-items">
                     Learn More
                     <img className="ml-2" src="/static/icon/chevron-orange.svg" />
                   </a>
                 </Link>
                 <button className="btn btn--medium primary w-100">
-                  <Link href="">
+                  <Link href="/register">
                     <a>Beli</a>
                   </Link>
                 </button>
@@ -92,7 +92,7 @@ export default function pricing () {
             </div>
 
 
-            <div className="card card--green">
+            <div id="ehr-pro" className="card card--green">
               <div className="card__header">BPJS</div>
               <div className="card__content px-3 px-md-5 flex-column flex-center">
                 <div className="card__currency--yearly">IDR</div>
@@ -109,14 +109,14 @@ export default function pricing () {
                 <p >
                   Bekerjasama dengan BPJS? Solusinya ada di sini!
                 </p>
-                <Link href="/">
+                <Link href="/ehr/bpjs-plugin">
                   <a className="card__more-link flex-items">
                     Learn More
                     <img className="ml-2" src="/static/icon/chevron-green.svg" />
                   </a>
                 </Link>
                 <button className="btn btn--medium primary w-100">
-                  <Link href="">
+                  <Link href="/register">
                     <a>Beli</a>
                   </Link>
                 </button>

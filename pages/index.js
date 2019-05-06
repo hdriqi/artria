@@ -41,7 +41,7 @@ const Index = () => (
               Aplikasi Artria EHR menyediakan layanan pengelolaan rekam medis yang tersistematis dan terinventaris untuk kemajuan layanan kesehatan Anda
             </p>
             <button className="btn btn--medium secondary mt-4">
-              <Link href="/">
+              <Link href="/ehr/ehr-plugin">
                 <a >Pelajari lebih lanjut</a>
               </Link>
             </button>
@@ -58,7 +58,7 @@ const Index = () => (
               Aplikasi Artria membantu Anda mengelola manajemen klinik mulai dari pendaftaran pasien, jadwal praktik dokter, manajemen stock obat hingga laporan layanan kesehatan yang dapat diakses di mana saja dan kapan saja.
             </p>
             <button className="btn btn--medium secondary mt-4">
-              <Link href="/">
+              <Link href="/ehr/ehr-plugin">
                 <a >Pelajari lebih lanjut</a>
               </Link>
             </button>
@@ -77,7 +77,7 @@ const Index = () => (
               Layanan Tenaga Medis ke rumah dengan Aplikasi Kami Aplikasi Artria menyediakan layanan medis on demand untuk kebutuhan pelayanan kesehatan tanpa harus keluar rumah.
             </p>
             <button className="btn btn--medium secondary mt-4">
-              <Link href="/">
+              <Link href="/homecare">
                 <a >Pelajari lebih lanjut</a>
               </Link>
             </button>
@@ -176,7 +176,7 @@ const Index = () => (
     </section>
 
     <section className="sixth-section flex-center flex-column">
-      <h4 className="h3-md mw-2 text-center mb-md-7 mb-5">
+      <h4 className="h3-md mw-2 mx-3 text-center mb-md-7 mb-5">
         Mulai Kelola Layanan Kesehatan Anda dengan Artria
         </h4>
       <button className="btn btn--medium primary">

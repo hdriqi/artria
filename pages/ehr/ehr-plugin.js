@@ -24,7 +24,7 @@ export class introduction extends Component {
                 Cukup Gunakan Artria EHR Pantau Klinik Anda di mana saja dan kapan saja
               </p>
               <button className="btn btn--medium primary mt-5 mw-1">
-                <Link href="/daftar">
+                <Link href="/register">
                   <a >Mulai Uji Coba 14 Hari Gratis</a>
                 </Link>
               </button>

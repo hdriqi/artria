@@ -105,7 +105,7 @@ export class introduction extends Component {
                 })
               }
               <button className="btn btn--medium secondary mt-4">
-                <Link href="/">
+                <Link href="/ehr/introduction#table">
                   <a>Pelajari Lebih Lanjut</a>
                 </Link>
               </button>
@@ -133,7 +133,7 @@ export class introduction extends Component {
                 })
               }
               <button className="btn btn--medium secondary mt-4">
-                <Link href="/">
+                <Link href="/ehr/introduction#table">
                   <a>Pelajari Lebih Lanjut</a>
                 </Link>
               </button>
@@ -175,14 +175,14 @@ export class introduction extends Component {
               }
             </div>
             <div>
-              <Link href="/">
+              <Link href="/ehr/introduction#table">
                 <a className="card__compare flex-center text-center my-3">
                   Bandingkan
                   <img className="ml-2" src="/static/icon/chevron-white.svg" />
                 </a>
               </Link>
               <button className="btn btn--medium primary">
-                <Link href={v.to}>
+                <Link href="/register">
                   <a>
                     Mulai Sekarang
                   </a>
@@ -300,7 +300,7 @@ export class introduction extends Component {
 
         </section>
 
-        <div className="section no-border container section-table">
+        <div id="table" className="section no-border container section-table">
           <div className="table mx-auto">
             <div className="table__header table__row">
               <div>

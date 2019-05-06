@@ -6,13 +6,13 @@ import Footer from "../../components/Footer";
 import Link from 'next/link';
 
 export class bpjs extends Component {
-  render() {
+  render () {
     return (
       <section className="ehr__bpjs">
         <Head>
           <title>Artria - EHR BPJS</title>
         </Head>
-        <Navbar/>
+        <Navbar />
         <section className="hero section-header flex-items">
           <div className="container ">
             <h4 className="h3-sm h2-md fw-700">
@@ -56,12 +56,12 @@ export class bpjs extends Component {
 
           <div className="flex-center mt-7">
             <button className="btn btn--large secondary">
-              <Link  href="/">
+              <Link href="/register">
                 <a >Buka Fitur ini sekarang</a>
               </Link>
             </button>
           </div>
-          
+
         </section>
         <Footer />
       </section>

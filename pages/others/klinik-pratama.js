@@ -46,7 +46,7 @@ export class klinikPratama extends Component {
           </div>
 
           <div className="features__wrapper row ">
-            <div className="text-right col-12 col-md-6 features mb-5 mb-md-6">
+            <div className="text-md-right col-12 col-md-6 features mb-5 mb-md-6">
               <h4 className="features__title">
                 Urus Klinik Anda dengan Mudah
               </h4>
