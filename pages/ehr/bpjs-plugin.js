@@ -28,7 +28,10 @@ export class bpjs extends Component {
             Hubungkan Klinik Anda dengan BPJS, semua beres dengan satu langkah
           </h4>
           <div className="features__wrapper row ">
-            <div className="offset-md-6 col-12 col-md-6 features mb-5 mb-md-6">
+            <div className="col-md-4 offset-md-1 col-12 pr-md-7 flex-justify align-items-center  flex-column mb-4">
+              <img className="box-shadow" src="/static/image/bpjs-1.jpg" />
+            </div>
+            <div className=" col-12  col-md-6 features mb-5 flex-column flex-justify mb-md-6">
               <h4 className="features__title">
                 Koneksi P-Care
               </h4>
@@ -36,7 +39,13 @@ export class bpjs extends Component {
                 Layanan P-Care yang akan terhubung dengan rekam medis Anda, cukup gunakan satu aplikasi kemudahan di tangan Anda.
               </p>
             </div>
-            <div className="offset-md-6 col-12 col-md-6 features mb-5 mb-md-6">
+          </div>
+
+          <div className="features__wrapper row ">
+            <div className="col-md-4 offset-md-1 col-12 pr-md-7 flex-justify align-items-center  flex-column mb-4">
+              <img className="box-shadow" src="/static/image/bpjs-2.jpg" />
+            </div>
+            <div className=" col-12 col-md-6 features mb-5 flex-column flex-justify mb-md-6">
               <h4 className="features__title">
                 Rujuk Pasien dengan Mudah
               </h4>
@@ -44,7 +53,13 @@ export class bpjs extends Component {
                 Kami akan menghubungkan sistem rujuk BPJS dengan aplikasi Artria anda
               </p>
             </div>
-            <div className="offset-md-6 col-12 col-md-6 features mb-5 mb-md-6">
+          </div>
+
+          <div className="features__wrapper feature-4 row ">
+            <div className="col-md-4 offset-md-1 col-12 pr-md-7 flex-justify align-items-center  flex-column mb-4">
+              <img src="/static/image/ehr-4.png" />
+            </div>
+            <div className=" col-12 col-md-6 features mb-5 flex-column flex-justify mb-md-6">
               <h4 className="features__title">
                 Laporan Kunjungan Terpantau
               </h4>

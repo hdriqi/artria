@@ -35,7 +35,12 @@ export class klinikPratama extends Component {
           </h4>
 
           <div className="features__wrapper row pt-4 pt-md-7">
-            <div className="offset-md-6 col-12 col-md-6 features mb-5 mb-md-6">
+
+            <div className="col-md-5 offset-md-1 col-12 pr-md-7 flex-justify align-items-center  flex-column mb-4">
+              <img src="/static/image/pratama-2.jpg" />
+            </div>
+
+            <div className=" col-12 col-md-6 features mb-5 mb-md-6 flex-column flex-justify">
               <h4 className="features__title">
                 Berikan Pelayanan Terbaik untuk Pasien Anda
               </h4>
@@ -46,7 +51,12 @@ export class klinikPratama extends Component {
           </div>
 
           <div className="features__wrapper row ">
-            <div className="text-md-right col-12 col-md-6 features mb-5 mb-md-6">
+
+            <div className="col-md-5 order-md-2 offset-md-1 col-12 pr-md-7 flex-justify align-items-center  flex-column mb-4">
+              <img src="/static/image/terms-hero.jpg" />
+            </div>
+
+            <div className="text-md-right col-12 col-md-6 features mb-5 mb-md-6 flex-column flex-justify">
               <h4 className="features__title">
                 Urus Klinik Anda dengan Mudah
               </h4>
@@ -57,7 +67,11 @@ export class klinikPratama extends Component {
           </div>
 
           <div className="features__wrapper row ">
-            <div className="offset-md-6 col-12 col-md-6 features mb-5 mb-md-6">
+
+            <div className="col-md-5 offset-md-1 col-12 pr-md-7 flex-justify align-items-center  flex-column mb-4">
+              <img src="/static/image/pratama-3.png" />
+            </div>
+            <div className=" col-12 col-md-6 features mb-5 mb-md-6 flex-column flex-justify">
               <h4 className="features__title">
                 Buat Resep Obat dengan Mudah
               </h4>

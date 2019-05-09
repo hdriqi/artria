@@ -26,6 +26,14 @@
     }
   }
 
+  .features__wrapper {
+    margin: 48px 0;
+
+    @include media(md) {
+      margin: 64px 0;
+    }
+  }
+
   .second-section {
     h4 {
       max-width: 700px;

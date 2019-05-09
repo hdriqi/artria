@@ -12,6 +12,10 @@ button {
   cursor: pointer;
 }
 
+img {
+  max-width: 100%;
+}
+
 button:disabled,
 button[disabled] {
 	cursor: not-allowed;
@@ -249,6 +253,10 @@ textarea {
     align-items: center;
     justify-content: space-between
   }
+}
+
+.box-shadow {
+  box-shadow: 4px 4px 10px rgba(0,0,0,.2);
 }
 
 

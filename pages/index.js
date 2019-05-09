@@ -6,7 +6,6 @@ import Link from 'next/link';
 
 // import VerifyEmailModal from "../components/Modal/Onboarding"
 
-
 const Index = () => (
   <section className="landing-page">
     <Head>
@@ -27,13 +26,16 @@ const Index = () => (
           </button>
         </div>
         <div className="hero__image col-md-5 col-12 mt-7 mt-md-0">
-          <img className="hero__person" src="/static/image/landing-page-hero.png" />
-          <img className="hero__decor" src="/static/icon/decor-1.svg" />
+          <div className="hero__person" />
+          <div className="hero__decoration"></div>
         </div>
       </section>
       <section className="section first-section">
         <div className="row my-md-7">
-          <div className="offset-md-6 col-md-6 col-12 pr-md-7 flex-justify align-items-start  flex-column">
+          <div className="col-md-6 col-12 pr-md-7 flex-justify align-items-start  flex-column">
+            <img src="/static/image/landing-page-1.jpg" />
+          </div>
+          <div className="col-md-6 col-12 pr-md-7 flex-justify align-items-start  flex-column">
             <h4 className="h3-md">
               Data Pasien tidak tercatat ?
             </h4>
@@ -50,7 +52,11 @@ const Index = () => (
       </section>
       <section className="section second-section">
         <div className="row my-md-7">
-          <div className="col-md-6 col-12 mw-2 flex-justify align-items-start align-items-md-end  flex-column text-md-right">
+
+          <div className="col-md-6 col-12 pl-md-7 flex-justify align-items-start  flex-column order-md-2">
+            <img src="/static/image/landing-page-2.jpg" />
+          </div>
+          <div className="col-md-6 pl-md-7 col-12 mw-2 flex-justify align-items-start align-items-md-end  flex-column text-md-right order-md-1">
             <h4 className="h3-md">
               Butuh bantuan untuk mengurus klinik Anda?
             </h4>
@@ -68,8 +74,11 @@ const Index = () => (
       </section>
       <section className="section third-section">
         <div className="row my-md-7">
+          <div className="col-md-6 col-12 pr-md-7 flex-justify align-items-start  flex-column">
+            <img src="/static/image/landing-page-3.jpg" />
+          </div>
 
-          <div className="offset-md-6 col-md-6 col-12 pr-md-7 flex-justify align-items-start  flex-column">
+          <div className="col-md-6 col-12 pr-md-7 flex-justify align-items-start  flex-column">
             <h4 className="h3-md">
               Home care
             </h4>
@@ -170,7 +179,6 @@ const Index = () => (
 
         <div className="hero__image col-md-5 col-12 mt-7 mt-md-0">
           <img className="hero__person--small" src="/static/image/landing-page-question.png" />
-          <img className="hero__decor hero__decor--adjust" src="/static/icon/decor-2.svg" />
         </div>
       </section>
     </section>

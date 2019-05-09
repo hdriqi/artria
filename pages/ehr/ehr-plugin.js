@@ -16,7 +16,11 @@ export class introduction extends Component {
         <Navbar />
         <section className="container">
           <section className="hero section-header row">
-            <div className="col-md-7 col-12 flex-justify flex-column my-7">
+
+            <div className="col-md-5 col-12 mt-7 mt-md-0">
+              <img src="/static/image/ehr-hero.png" />
+            </div>
+            <div className="col-md-7 pl-md-7 col-12 flex-justify flex-column my-7">
               <h4 className="h3-md">
                 Lebih Mudah dalam Mengolah Rekam Medis Pasien Anda
               </h4>
@@ -29,9 +33,7 @@ export class introduction extends Component {
                 </Link>
               </button>
             </div>
-            <div className="col-md-5 col-12 mt-7 mt-md-0">
-              <img src="/static/icon/decor-2.svg" />
-            </div>
+
           </section>
 
           <section className="section second-section flex-center flex-column">
@@ -48,6 +50,9 @@ export class introduction extends Component {
 
           <section className="section third-section">
             <div className="row my-md-7">
+              <div className="col-md-6 col-12 pl-md-7 flex-justify align-items-start  flex-column order-md-2 mb-4">
+                <img src="/static/image/ehr-1.png" />
+              </div>
               <div className="col-md-6 col-12  flex-justify   flex-column text-md-right">
                 <h4 className="h3-md">
                   Aplikasi Manajemen Klinik untuk Semua Layanan Kesehatan
@@ -61,7 +66,12 @@ export class introduction extends Component {
 
           <section className="section forth-section">
             <div className="row my-md-7">
-              <div className="col-md-6 offset-md-6 col-12  flex-justify   flex-column ">
+
+              <div className="col-md-6 col-12 pr-md-7 flex-justify align-items-start  flex-column mb-4">
+                <img className="box-shadow" src="/static/image/ehr-2.jpg" />
+              </div>
+
+              <div className="col-md-6 col-12  flex-justify   flex-column ">
                 <h4 className="h3-md">Data Analisis untuk Klinik Anda </h4>
                 <p>
                   Lengkap dengan laporan hasil rangkuman diagnosis, penggunaan obat hingga laporan keuangan klinik Anda
@@ -72,6 +82,9 @@ export class introduction extends Component {
 
           <section className="section fifth-section">
             <div className="row my-md-7">
+              <div className="col-md-6 col-12 pl-md-7 flex-justify align-items-start  flex-column order-md-2 mb-4">
+                <img className="box-shadow" src="/static/image/ehr-3.jpg" />
+              </div>
               <div className="col-md-6 col-12  flex-justify   flex-column text-md-right">
                 <h4 className="h3-md">
                   Olah Rekam Medis Pasien Anda
@@ -85,7 +98,10 @@ export class introduction extends Component {
 
           <section className="section sixth-section">
             <div className="row my-md-7">
-              <div className="col-md-6 offset-md-6 col-12  flex-justify   flex-column ">
+              <div className="col-md-6 col-12 pr-md-7 flex-justify align-items-center  flex-column mb-4">
+                <img src="/static/image/ehr-4.png" />
+              </div>
+              <div className="col-md-6  col-12  flex-justify   flex-column ">
                 <h4 className="h3-md">
                   kesulitan mengelola laporan keuangan?
                 </h4>
@@ -98,6 +114,9 @@ export class introduction extends Component {
 
           <section className="section seventh-section">
             <div className="row my-md-7">
+              <div className="col-md-6 col-12 pr-md-7 flex-justify align-items-center  flex-column mb-4 order-md-2">
+                <img src="/static/image/ehr-5.png" />
+              </div>
               <div className="col-md-6 col-12  flex-justify   flex-column text-md-right">
                 <h4 className="h3-md">
                   Buat Resep dengan <br /> bantuan Artria Data, Mudah!
