@@ -92,13 +92,19 @@
           font-weight: 700;
           color: white;
           background-color: $primary50;
-          width: 120%;
+          width: 105%;
+          left: -2.5%;
           padding: 20px 0;
           border-radius: 30px;
           text-align: center;
           margin-bottom: 24px;
           position: relative;
-          left: -10%;
+          
+
+          @include media(lg) {
+            width: 120%;
+            left: -10%;
+          }
 
           &-bpjs {
             background-color: green;
@@ -184,6 +190,9 @@
       }
     }
   }
-
- 
+  .sixth-section, .seventh-section {
+    img {
+      max-width: 200px
+    }
+  }
 }

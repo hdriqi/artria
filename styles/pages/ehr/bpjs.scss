@@ -23,9 +23,21 @@
     }
   }
 
+  .section {
+    img {
+      max-width: 200px;
+    }
+  }
+
   .second-section {
     h4 {
       max-width: 600px;
+    }
+
+    .feature-4 {
+      img {
+        max-width: 100px;
+      }
     }
 
     .features__wrapper {

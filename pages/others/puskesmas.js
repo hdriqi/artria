@@ -35,7 +35,10 @@ export class puskesmas extends Component {
           </h4> */}
 
           <div className="features__wrapper row pt-4 pt-md-7">
-            <div className="offset-md-6 col-12 col-md-6 features mb-5 mb-md-6">
+            <div className="col-md-5 offset-md-1 col-12 pr-md-7 flex-justify align-items-center  flex-column mb-4">
+              <img className="box-shadow" src="/static/image/puskesmas-1.jpg" />
+            </div>
+            <div className=" col-12 col-md-6 features mb-5 mb-md-6 flex-column flex-justify">
               <h4 className="features__title">
                 Pindahkan semua data rekam Medis Anda
               </h4>
@@ -46,7 +49,10 @@ export class puskesmas extends Component {
           </div>
 
           <div className="features__wrapper row pt-4 pt-md-7">
-            <div className="text-right col-12 col-md-6 features mb-5 mb-md-6">
+            <div className="col-md-5 order-md-2 offset-md-1 col-12 pr-md-7 flex-justify align-items-center  flex-column mb-4">
+              <img className="box-shadow" src="/static/image/ehr-2.jpg" />
+            </div>
+            <div className="text-md-right col-12 col-md-6 features mb-5 mb-md-6 flex-column flex-justify">
               <h4 className="features__title">
                 Dapatkan Laporan
               </h4>
@@ -57,7 +63,10 @@ export class puskesmas extends Component {
           </div>
 
           <div className="features__wrapper row pt-4 pt-md-7">
-            <div className="offset-md-6 col-12 col-md-6 features mb-5 mb-md-6">
+            <div className="col-md-5 offset-md-1 col-12 pr-md-7 flex-justify align-items-center  flex-column mb-4 ">
+              <img src="/static/image/puskesmas-3.jpg" />
+            </div>
+            <div className="col-12 col-md-6 features mb-5 mb-md-6 flex-column flex-justify">
               <h4 className="features__title">
                 Tanpa harus menambah Alat Penunjang
               </h4>

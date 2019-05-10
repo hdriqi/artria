@@ -59,13 +59,7 @@ function homecare () {
               <p>
                 Baik Dokter, Perawat ataupun bidan di klinik Anda dapat memberikan layanan kunjungan kerumah. Semua tersedia di dalam satu aplikasi
               </p>
-              <button className="btn btn--medium secondary mt-4">
-                <Link href="/">
-                  <a >Pelajari lebih lanjut</a>
-                </Link>
-              </button>
             </div>
-
           </div>
         </section>
       </div>
